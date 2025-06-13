@@ -1,71 +1,40 @@
-🌦️ Weather App
-This is a simple weather application built using Streamlit. It allows users to check the weather of any city using real-time data.
+# 🌦️ Weather App
 
-🚀 Features
-Get current weather based on city name
+A simple and interactive weather app built with **Streamlit** that displays real-time weather based on a city name.
 
-Clean and interactive user interface using Streamlit
+---
 
-Easy to run locally in a Python virtual environment
+## 🚀 Features
 
-🛠️ Requirements
-Python 3.7+
+- Get current weather info by city name  
+- Real-time data using weather API  
+- Clean UI with Streamlit  
+- Easy setup using Python virtual environment
 
-requests
+---
 
-streamlit
+## 🛠 Requirements
 
-(Optional) python-dotenv if using environment variables for API keys
+- Python 3.7+  
+- `requests`  
+- `streamlit`  
+- *(Optional)* `python-dotenv` for managing API keys
 
-📦 Setup Instructions
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
-2. Create a virtual environment
-bash
-Copy
-Edit
+---
+
+## ⚙️ Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/weather-ui.git
+cd weather-ui
+
+# 2. Create and activate virtual environment
 python3 -m venv env
-source env/bin/activate
-3. Install dependencies
-bash
-Copy
-Edit
+source env/bin/activate  # or env\Scripts\activate on Windows
+
+# 3. Install dependencies
 pip install -r requirements.txt
-4. Run the app
-bash
-Copy
-Edit
+
+# 4. Run the app
 streamlit run weather_app.py
-📁 File Structure
-bash
-Copy
-Edit
-weather-app/
-│
-├── weather_app.py         # Main application script
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-🔑 API Key
-Make sure you have a weather API key (e.g., from OpenWeatherMap).
-
-You can either:
-
-Directly paste it into your script, or
-
-Store it in an environment variable or .env file (recommended)
-
-Example .env file:
-
-ini
-Copy
-Edit
-WEATHER_API_KEY=your_api_key_here
-📸 Preview
-(Add a screenshot here if available)
-
-📝 License
-This project is open-source and available under the MIT License.
